@@ -210,6 +210,27 @@ border: 5px solid white;
 
 /*Responsive design*/
 
+@media (max-width: 768px) {
+
+
+    .navbar .container {
+    flex-direction: column;
+    gap: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why-choose-us .container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .how-it-works 
+}
+
 
 
 
