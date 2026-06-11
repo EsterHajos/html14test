@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html14test</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normlize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -16,27 +17,28 @@
 
     <header class="hero">
         <div class="hero__content">
-            <h1>BHROMAON</h1>
-            <p>Safe travel anywhere</p>
+            <h1 class="hero-h1">BHROMAON</h1>
+            <p class="hero-p">Safe travel anywhere</p>
 
             <form class="search-form">
                 <input type="text" placeholder="Search your travel destination">
                 <button type="submit">Search</button>
             </form>
 
-            <a href="#why-choose-us">Scroll Down</a>
+            <a href="#why-choose-us" class="hero-a">Scroll Down</a>
         </div>
     </header>
 
 
     <nav class="navbar">
         <div class="container">
-            <h2>BHROMAON</h2>
+            <h2 class="nav-h2">BHROMAON</h2>
 
             <ul class="nav-links">
-                <li><a href="#why-choose-us">Who we are</a></li>
-                <li><a href="#how-it-works">What we do</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#why-choose-us">WHO</a></li>
+                <li><a href="#how-it-works">WHAT </a></li>
+                <li><a href="#how-it-works">TRAVEL</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
 
         </div>
@@ -49,7 +51,7 @@
         <div class="container">
             <div class="why-choose-us__content">
 
-                <h2>Why Choose Us</h2>
+                <h2 class="why-choose-us-h2">Why Choose Us</h2>
 
                 <p>Tion and dislike men who are so beguiled and demoralized by 
                     desire by the charms of pleasure of the moment, 
@@ -59,13 +61,13 @@
                     by the charms of pleasure of the moment, 
                     so blinded by desire, that.</p>
                 
-                <button>Explore Places</button>
+                <button class="btn-why-choose-us">Explore Places</button>
 
             </div>
 
             <div class="why-choose-us__images">
-                <img src="/project/images/whyus1.png/500x300" alt="lakehouse">
-                <img src="/project/images/whyus2.png/500x300" alt="nature">
+                <img src="images/whyus1.png" alt="lakehouse" width="350" height="220">
+                <img src="images/whyus2.png" alt="nature" width="350" height="220">
             </div>
             </div>
         </div>
@@ -79,7 +81,7 @@
 
     <section class="destination destination-spain">
         <div class="container">
-            <article class="card"> 
+            <div class="card"> 
 
             <h3>Spain</h3>
 
@@ -91,9 +93,9 @@
                   born and I account will give you a complete 
                   account of the system</p>
 
-            <button>Book Now</button>
+            <button class="btn-book">Book Now</button>
 
-            </article>
+            </div>
         </div>
     </section>
 
@@ -101,7 +103,7 @@
 
     <section class="destination destination-norway">
         <div class="container">
-            <article class="card">
+            <div class="card">
                 
                 <h3>Norway</h3>
 
@@ -113,14 +115,24 @@
                   born and I account will give you a complete 
                   account of the system</p>
 
-            </article>
+                <button class="btn-book">Book Now</button>
+
+                </div>
         </div>
     </section>
 
 
     <section class="testimonial">
         <div class="container">
-            <h2>Testimonial</h2>
+
+            <h2 class="testimonial-title"> What Our Tourist Say</h2>
+
+            <div class="testimonial__card">
+
+            <div class="testimonial__content">
+
+            <h3>SAM SUMON</h3>
+
             <p>But I must explain to you how all
                  this mistaken idea of account to denouncinpleasure
                   and praising pain  But I must explain to you how 
@@ -129,6 +141,9 @@
                     born and I account will give you a complete 
                     account of the system was account  born and I account 
                     will give you a nai the complete account of the system</p>
+
+            </div>
+         </div>
         </div>
     </section>
 
@@ -137,11 +152,11 @@
         <p>Safe Travel Anywhere</p>
 
         <div class="footer__icons">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://se.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://se.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
 
         </div>
     </footer>
