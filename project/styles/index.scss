@@ -228,8 +228,25 @@ border: 5px solid white;
 
     }
 
-    .how-it-works 
+    .how-it-works .container {
+        grid-template-columns: 1fr;
+    }
+
+    .search-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search-form input, .serach form button {
+        width:100%; 
+    }
+
+    .why-choose-us-images img:last-child {
+        margin-left: 0;
+    }
 }
+
+
 
 
 
