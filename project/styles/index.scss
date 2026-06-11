@@ -51,8 +51,13 @@ img {
     gap: 1rem;
 }
 
+.serach-form {
+    display: flex;
+}
+
 .search-form input {
     width: 650px;
+    padding: 0.8rem;
     color: #999999;
     border: none;
 }
