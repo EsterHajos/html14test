@@ -114,6 +114,10 @@ font-family: 'Aleo', serif;
 font-size: 14px;
 }
 
+.search-form button:hover {
+    background-color: #1a3197;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -210,6 +214,10 @@ font-size: 14px;
     width: 228px;
 }
 
+.btn-why-choose-us button:hover {
+    background-color: #1a3197;
+}
+
 
 /*How it works*/
 
@@ -277,6 +285,11 @@ font-size: 14px;
 
 }
 
+.btn-book button:hover  {
+    background-color: #1a3197;
+}
+
+
 /*Testimonial*/
 
 .testimonial {
@@ -327,13 +340,9 @@ font-size: 14px;
     color: #5474FD;
 }
 
-/*lägg in en spin för att göra linkedin in blå color: #0A66C2;*/ 
-
-
-
 /*Responsive design*/
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {    /*havent finished this one*/
 
 
     .navbar .container {
@@ -370,7 +379,47 @@ font-size: 14px;
 }
 
 
+@media (max-width 320px) {
 
+    .container {
+        width: 95%;
+    }
+
+    .hero-h1 {
+        font-size: 32px;
+        letter-spacing: 2px;
+
+    }
+
+    .hero-p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .search-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .search-form input 
+    .search-form button {
+        width: 100%;
+
+    }
+
+    .navbar .conatiner {
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+
+    }
+}
 
 
 
