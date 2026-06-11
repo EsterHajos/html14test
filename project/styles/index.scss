@@ -28,6 +28,10 @@ img {
     display: block;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*Hero Section*/ 
 
 .hero {
@@ -77,7 +81,7 @@ img {
 }
 
 
-.serach-form {
+.search-form {
     display: flex;
 }
 
@@ -258,7 +262,9 @@ font-size: 14px;
 
 }
 
-.card h3, h2, p {
+.card h3, 
+.card h2, 
+.card p {
     text-align: left;
     width: 100%;
 }
@@ -288,13 +294,13 @@ font-size: 14px;
 }
 
 .testimonial__card {
-    width: min(1100px, 90%)
+    width: min(1100px, 90%);
     margin: 0 auto;
     display: flex;
     opacity: 90%;
 }
 
-
+/*test*/
 
 /*Footer*/
 
@@ -315,6 +321,10 @@ font-size: 14px;
     align-items: center;
     gap: 1.5rem;
     margin-top: 1rem;
+}
+
+.linkedin-icon {
+    color: #5474FD;
 }
 
 /*lägg in en spin för att göra linkedin in blå color: #0A66C2;*/ 
