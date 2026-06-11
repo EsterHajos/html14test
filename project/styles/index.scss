@@ -37,7 +37,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(images/header.png);
+    background-image: url(../images/header.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,6 +50,55 @@ img {
     align-items: center;
    /* gap: 1rem;*/
 }
+
+.search-form input {
+    width: 650px;
+    color: #999999;
+    border: none;
+}
+
+.search-form button {
+cursor: pointer;
+background-color: #5474FD;
+font-family: 'Aleo', serif;
+color: white;
+border: 5px solid white;
+
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 1rem 0;
+    background: #5474FD;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    font-family: 'Aleo', serif;
+}
+
+/*Why Choose Us*/
+
+/*How it works*/
+
+/*Destinations*/
+
+/*Testimonial*/
+
+/*Footer*/
+
+/*Responsive design*/
+
+
 
 
 
