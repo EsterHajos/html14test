@@ -185,6 +185,29 @@ border: 5px solid white;
 
 /*Footer*/
 
+.footer {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: black;
+    color: white;
+
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+/*lägg in en spin för att göra linkedin in blå color: #0A66C2;*/ 
+
+
+
 /*Responsive design*/
 
 
